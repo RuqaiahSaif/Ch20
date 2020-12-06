@@ -6,6 +6,7 @@ xmlns:tools="http://schemas.android.com/tools">
             name="viewModel"
             type="com.example1.beatbox.SoundViewModel"/>
     </data>
+
 <Button
     android:layout_width="match_parent"
     android:layout_height="120dp"
@@ -13,4 +14,5 @@ xmlns:tools="http://schemas.android.com/tools">
 
     android:text="@{viewModel.title}"
     />
+
 </layout>
